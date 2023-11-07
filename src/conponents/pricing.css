@@ -1,0 +1,89 @@
+.pricing{
+    padding: 128px 16px;
+    background-color:#616161 !important;
+    display: flex;
+    justify-content: space-around;
+ position: relative;
+    align-items: center;
+}
+
+.poscenter{
+    position: absolute;
+    top: 120px;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+}
+
+.basic,.pro,.premium{
+    margin-top:80px!important;
+    margin-bottom: 16px!important;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.packet{
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    color: #fff!important;
+    background-color: #000!important;
+    font-size: 24px;
+    width: 100%;
+    margin: unset !important;
+}
+
+
+.red{
+    background-color: #f44336!important;
+    padding: 50px 0px !important;
+    width: 100% !important;
+    margin: unset !important;
+    border-bottom: unset !important;
+}
+
+.basic div,.pro div,.premium div{
+    width: 100%;
+    margin: 16px 0px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0px;
+}
+
+
+.pricing button{
+    color: #fff!important;
+    background-color: #000!important;
+    outline: none;
+    border: none;
+    padding: 12px 24px!important;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:1880px) {
+    .basic,.pro,.premium{
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width:1460px) {
+    .basic,.pro,.premium{
+        width: 300px;
+    }
+    .basic div,.pro div,.premium div{
+        padding: 10px 0px;
+    }
+}
+
+
+
+@media screen and (max-width:1000px) {
+   .pricing{
+    flex-direction: column;
+    align-items: center;
+   }
+}

@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+
+
+.teamsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0px;
+    flex-flow: row wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.center{
+    text-align: center;
+font-size: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center2{
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.popup-nav{
+    height: 100%;
+    width: 100%;
+ background: rgba(0, 0, 0, 0.7);   
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 10;
 }
 
-.App-link {
-  color: #61dafb;
+.close-popup{
+    background: none;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-back{
+    background-color: #868686;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.nav-back li {
+    text-decoration: none;
+    color: white;
 }

@@ -1,0 +1,23 @@
+.statics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff!important;
+    background-color: #616161!important;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+
+.static{
+    text-align: center;
+}
+
+.num{
+    font-size: 36px!important;
+}
+
+@media screen and (max-width:540px) {
+    .num{
+        font-size: 20px !important;
+    }
+}

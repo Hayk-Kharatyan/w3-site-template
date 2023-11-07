@@ -1,0 +1,45 @@
+.macimg{
+  position: relative;
+  line-height: 1.8;
+}
+
+.macimg img{
+    width: 100%;
+    height: 933px;
+    filter: grayscale(50%);
+}
+
+.posleft{
+    padding: 48px;
+    color: #fff!important;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+
+.posleft span{
+    font-size: 64px!important;
+}
+
+.posleft p{
+    font-size: 18px!important;
+    
+}
+
+.posleft button{
+    font-size: 18px;
+    opacity: 0.60;
+    padding: 12px 24px!important;
+    color: #000!important;
+    background-color: #fff!important;
+    outline: none;
+    border: none;
+    margin-top: 16px!important;
+}
+
+@media screen and (max-width:910px) {
+    .posleft span{
+        font-size: 40px !important;
+    }
+}
