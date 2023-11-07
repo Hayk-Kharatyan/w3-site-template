@@ -1,6 +1,6 @@
 {
-  "name": "image",
   "homepage": "https://Hayk-Kharatyan.github.io/w3-site-template",
+  "name": "image",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
